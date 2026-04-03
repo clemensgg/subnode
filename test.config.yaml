@@ -1,0 +1,21 @@
+upstream:
+  - rpc: "https://rpc-archive.example.com:443"
+    api: "https://api-archive.example.com:443"
+    grpc: "grpc-archive.example.com:443"
+    eth: "https://jsonrpc-archive.example.com:443"
+    ethWs: "wss://jsonrpc-archive.example.com:443/websocket/"
+    blocks: []
+
+  - rpc: "https://rpc-subnode.example.com:443"
+    api: "https://api-subnode.example.com:443"
+    grpc: "grpc-subnode.example.com:443"
+    eth: ""
+    ethWs: ""
+    blocks: [1, 100]
+
+  - rpc: "https://rpc-pruned.example.com:443"
+    api: "https://api-pruned.example.com:443"
+    grpc: "grpc-pruned.example.com:443"
+    eth: ""
+    ethWs: ""
+    blocks: [10]
