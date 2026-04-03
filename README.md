@@ -35,7 +35,7 @@ subnode start --conf=/path/to/config/file
 ```
 
 #### Configuration
-See sample config [test.config.evmos.yaml](test.config.evmos.yaml).
+See sample config [test.config.yaml](test.config.yaml).
 
 `blocks` config example:
 - `[1, 100]` => from block 1 to block 100 (subnode). In case its last subnode, set to-block to 0 to indicate newest block `[101, 0]`
